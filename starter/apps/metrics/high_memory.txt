@@ -1,0 +1,4 @@
+
+As shown in below logs, the "hello world" application is using the highest memory i.e. 20Mi.
+
+hello-world-794458d64d-wlkt6          2m           20Mi

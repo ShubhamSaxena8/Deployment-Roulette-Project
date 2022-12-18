@@ -1,0 +1,12 @@
+ubuntu@ip-172-31-65-219:~$ k get pods
+NAME                           READY   STATUS    RESTARTS   AGE
+blue-8475cbdf46-6vst2          1/1     Running   0          43m
+blue-8475cbdf46-bztzq          1/1     Running   0          43m
+blue-8475cbdf46-q68wg          1/1     Running   0          43m
+canary-v1-64598c676f-2q7mh     1/1     Running   0          43m
+canary-v1-64598c676f-rdgvh     1/1     Running   0          43m
+canary-v2-5dc9c56687-p8mt8     1/1     Running   0          23m
+canary-v2-5dc9c56687-qk28j     1/1     Running   0          23m
+debug                          1/1     Running   0          2m59s
+hello-world-794458d64d-8lpzc   1/1     Running   0          30m
+ubuntu@ip-172-31-65-219:~$ 

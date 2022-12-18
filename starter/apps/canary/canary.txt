@@ -1,0 +1,43 @@
+ubuntu@ip-172-31-65-219:~/nd087-c3-deployment-roulette/starter/apps/canary$ k run debug --rm -i --tty --image nicolaka/netshoot -- /bin/bash
+If you don't see a command prompt, try pressing enter.
+bash-5.2# curl canary-svc
+<html>
+<h1>This is version 1</h1>
+</html>
+bash-5.2# curl canary-svc
+<html>
+<h1>This is version 2</h1>
+</html>
+bash-5.2# curl canary-svc
+<html>
+<h1>This is version 2</h1>
+</html>
+bash-5.2# curl canary-svc
+<html>
+<h1>This is version 1</h1>
+</html>
+bash-5.2# curl canary-svc
+<html>
+<h1>This is version 1</h1>
+</html>
+bash-5.2# curl canary-svc
+<html>
+<h1>This is version 2</h1>
+</html>
+bash-5.2# curl canary-svc
+<html>
+<h1>This is version 1</h1>
+</html>
+bash-5.2# curl canary-svc
+<html>
+<h1>This is version 1</h1>
+</html>
+bash-5.2# curl canary-svc
+<html>
+<h1>This is version 2</h1>
+</html>
+bash-5.2# curl canary-svc
+<html>
+<h1>This is version 2</h1>
+</html>
+bash-5.2# 
